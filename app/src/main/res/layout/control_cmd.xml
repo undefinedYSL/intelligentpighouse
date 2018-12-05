@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 帧布局 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"  >
+
+
+    <RelativeLayout
+        android:id="@+id/title_ry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+        <include layout="@layout/control_title_layout" />
+    </RelativeLayout>
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/controlbackground1"
+        android:orientation="vertical"
+        android:padding="2dip"
+         >
+       <LinearLayout
+            android:id="@+id/tn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scrollView0"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbarStyle="outsideOverlay" >
+
+                <LinearLayout
+                    android:id="@+id/tabhost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    
+                  <!-- 手自动控制 -->
+
+
+
+                <LinearLayout
+                    android:id="@+id/layout01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#000000"
+                    android:textSize="20dip"
+                    android:typeface="sans">
+
+                    <TextView
+                        android:id="@+id/tv01_1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="自动切换:"
+                        android:textColor="@color/dark"
+                        android:textSize="20sp" />
+
+
+
+                        <RadioButton
+                            android:id="@+id/zidongkongzhi_01_on"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="启动"
+                            android:textColor="@color/dark"
+                            android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+                    
+                <!-- 风扇控制 -->
+
+                    <LinearLayout
+                        android:id="@+id/layout02"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv02_1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="风扇:"
+                            android:textColor="@color/dark"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup02_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/fengshan_01_on"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="启动"
+                                android:textColor="@color/dark" />
+
+                            <RadioButton
+                                android:id="@+id/fengshan_01_off"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:text="停止"
+                                android:textColor="@color/dark" />
+                        </RadioGroup>                       
+                    </LinearLayout>
+                    
+                                        <!-- 暖风扇 -->
+                    <LinearLayout
+                        android:id="@+id/layout03"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv03_1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="暖风扇:"
+                            android:textColor="@color/dark"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup03_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/nuanfengshan_01_on"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="启动"
+                                android:textColor="@color/dark" />
+
+                            <RadioButton
+                                android:id="@+id/nuanfengshan_01_off"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="停止"
+                                android:checked="true"
+                                android:textColor="@color/dark" />
+                        </RadioGroup>
+          </LinearLayout>
+          
+                    <!-- 电热板 -->
+                    <LinearLayout
+                        android:id="@+id/layout04"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv04_1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="电热板:"
+                            android:textColor="@color/dark"
+                            android:textSize="20sp" />
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup04_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/dianreban_01_on"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="启动"
+                                android:textColor="@color/dark" />
+
+                            <RadioButton
+                                android:id="@+id/dianreban_01_off"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="停止"
+                                android:checked="true"
+                                android:textColor="@color/dark" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+       </LinearLayout>
+    </FrameLayout>
+
+   
+
+</RelativeLayout>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dip"
+    android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativewendu1"
+            android:layout_width="fill_parent"
+            android:layout_height="61dip"
+            android:background="@drawable/home_select_list_style"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/wendu"
+                android:layout_width="31dip"
+                android:layout_height="31dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/temp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@id/wendu"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_looks_tv"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="15dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_looks_info_tv"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="11dip" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/temp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:text=""
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeshidu1"
+            android:layout_width="match_parent"
+            android:layout_height="61dip"
+            android:background="@drawable/home_select_list_style"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/shidu"
+                android:layout_width="31dip"
+                android:layout_height="31dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/shidu" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@id/shidu"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_shopping_tv"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_shopping_info_tv"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/humi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:text=""
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeco21"
+            android:layout_width="match_parent"
+            android:layout_height="61dip"
+            android:background="@drawable/home_select_list_style"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/turang"
+                android:layout_width="31dip"
+                android:layout_height="31dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/soil" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@id/turang"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_show_tv"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_show_info_tv"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/co21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:text=""
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeguangzhao1"
+            android:layout_width="match_parent"
+            android:layout_height="61dip"
+            android:background="@drawable/home_select_list_style"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/guangzhao"
+                android:layout_width="31dip"
+                android:layout_height="31dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/sun" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@id/guangzhao"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_search_tv"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_search_info_tv"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sun1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:text=""
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeanqi1"
+        android:layout_width="match_parent"
+        android:layout_height="61dip"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/anqi"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/nh3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/anqi"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_anqi_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_anqi_info_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="14dip" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/anqi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:text=""
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeH2S1"
+        android:layout_width="match_parent"
+        android:layout_height="61dip"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/H2S"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/h2s" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/H2S"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_H2S_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_H2S_info_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="14dip" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/H2S1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:text=""
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeAirRate1"
+        android:layout_width="match_parent"
+        android:layout_height="61dip"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/AirRate"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/airrate" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/AirRate"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_airrate_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_airrate_info_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="14dip" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/AirRate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:text=""
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativesearch1"
+            android:layout_width="match_parent"
+            android:layout_height="61dip"
+            android:background="@drawable/home_select_list_style"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/zxing1"
+                android:layout_width="31dip"
+                android:layout_height="31dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/index_browse" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@id/zxing1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_browse_tv"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/index_browse_info_tv"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="6dip"
+                android:layout_height="12dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:src="@drawable/home_index_arrow" />
+        </RelativeLayout>
+
+</LinearLayout>
